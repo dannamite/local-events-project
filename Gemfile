@@ -17,6 +17,9 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'autoprefixer-rails'
 
+gem 'minitest-rails'
+gem 'minitest-rails-capybara', group: :test
+
 group :development, :test do
   gem 'byebug'
 end
