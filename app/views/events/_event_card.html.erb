@@ -48,8 +48,7 @@
     <section class="card-back">
       <% if event.image_binary %>
       <div class="left">
-        <%= image_tag('/events/' + event.id.to_s + '.png', alt: event.name + 'image') %>
-        <!-- <img class="card-image" src="/events/<%= event.id%>.png" alt="<%= event.name %> image" /> -->
+        <img class="card-image" src="/events/<%= event.id%>.png" alt="<%= event.name %> image" />
       </div>
       <% end %>
       <div class="right">
